@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./aos-master/dist/aos.css">
+
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
+
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css'>
+    <script src="https://kit.fontawesome.com/3b161c540c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+  <main>
+    <!------------------NAVBAR---START---------------->
+
+    <header id="header">
+    <div class="container1">
+      <input type="checkbox" name="check" id="check">
+      <div class="d-block d-lg-none logo_display_responsive">
+        <a href="index.html" style="display: contents;" class="py-3"><img src="images/pavilion_logo.png" class="w-100" alt=""></a>
+      </div>
+      <div class="nav-btn">
+        <div class="nav_links">
+          <ul class="p-0 mb-0">
+            <li class="nav_link" style="--i: .6s">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="nav_link" style="--i: .6s">
+              <a href="#" class="nav_active">About Us</a>
+            </li>
+            <li class="nav_link" style="--i: .6s">
+              <a href="services.html">Services</a>
+            </li>
+            <li class="nav_link" style="--i: .85s">
+              <a href="#">Projects<i class="fas fa-caret-down"></i></a>
+              <div class="dropdown1">
+                <ul class="p-0">
+                  <li class="dropdown_link">
+                    <a href="completed.html" class="d-flex align-items-center justify-content-between"><span>Completed</span> <span><iconify-icon icon="mi:arrow-right" class="fs-6 nested_icon" style="margin-top: .4rem;"></iconify-icon></span></a>
+                  </li>
+                  <li class="dropdown_link">
+                    <a href="ongoing.html" class="d-flex align-items-center justify-content-between"><span>Ongoing</span> <span><iconify-icon icon="mi:arrow-right" class="fs-6 nested_icon" style="margin-top: .4rem;"></iconify-icon></span></a>
+                  </li>
+                  <li class="dropdown_link">
+                    <a href="upcoming.html" class="d-flex align-items-center justify-content-between"><span>Upcoming</span> <span><iconify-icon icon="mi:arrow-right" class="fs-6 nested_icon" style="margin-top: .4rem;"></iconify-icon></span></a>
+                  </li>
+                   <div class="top_arrow"></div>
+                </ul>
+              </div>
+            </li>
+
+            <div class="logo_display">
+              <a href="#" style="display: contents;" class=""><img src="images/pavilion_logo.png" class="w-100" alt=""></a>
+            </div>
+
+            
+            <li class="nav_link" style="--i: 1.35s">
+              <a href="quality.html">Quality</a>
+            </li>
+            <li class="nav_link" style="--i: 1.35s">
+              <a href="csr.html">CSR</a>
+            </li>
+            <li class="nav_link" style="--i: 1.35s">
+              <a href="clients.html">Clients</a>
+            </li>
+            <li class="nav_link" style="--i: 1.35s">
+              <a href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hamburger-menu-container">
+        <div class="hamburger-menu">
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+   
+    
+    <!------------------NAVBAR---END---------------->
+
+    <!--------------------BANNER---START------------------->
+    
+    <!-- <div class="container-fluid about_banner px-0" style="overflow: hidden;">
+      <img src="images/about_banner.jpeg" class="w-100 about_banner_main_img" alt="">
+      <div class="about_logo">
+        <img src="images/pavilion_logo.png" class="w-100" alt="">
+      </div>
+    </div> -->
+
+    <div class="container-fluid px-0" style="overflow: hidden;">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1" style="overflow: hidden;">
+          <div class="col">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="about_slide1">
+                    <img src="images/about_banner.jpeg" class="w-100 d-block d-lg-none" alt="">
+                    <!-- <div class="img_content">
+                      <h3 class="futura fw-bold text-white text-uppercase mb-0">Transforming Dreams into Reality</h3>
+                    </div> -->
+                    <div class="center_heading">
+                      <h3 class="futura fw-bold text-white text-uppercase mb-0 px-3 py-2">Transforming Dreams into Reality</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="about_slide2">
+                    <img src="images/about_img.jpeg" class="w-100 d-block d-lg-none" alt="">
+                    <div class="about_img_content2">
+                      <h3 class="futura fw-bold text-white text-uppercase mb-0">Our every effort is a contribution to our Clients' Success.</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"><iconify-icon icon="mi:arrow-right" class="banner_right_arrow" style="font-size: calc(1.2rem + .1vw);"></iconify-icon></div>
+              <div class="swiper-button-prev"><iconify-icon icon="mi:arrow-left" class="banner_left_arrow" style="font-size: calc(1.2rem + .1vw);"></iconify-icon></div>
+              <div class="swiper-pagination banner_pagination"></div>
+            </div>
+          </div>
+      </div>
+  </div>
+    
+    <!--------------------BANNER---END------------------->
+
+    <!--------------------ABOUT---START------------------->
+
+      <div class="container-fluid px-0" style="overflow: hidden;">
+
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1 px-3" style="overflow: hidden;">
+          <div class="col">
+            <div class="d-lg-flex align-items-center justify-content-center">   
+              <div class="col-lg-5 mt-5 text-start">
+                <div class="mx-auto" style="width: 85%;" data-aos="fade-up">
+                  <h2 class="text-capitalize border-bottom pb-2 d-inline-block"> Pavilion Infra</h2>
+                  <p class="futura fw-bold">The words <span class="maincolor"> “Varied Aspirations” </span>reflect our attitude and approach towards our work. Pavilion is an end-to-end solution provider from inception to completion with complete Turnkey Solutions. We have been synonymous with Knowledge, Expertise and Commitment, and rightly so, we have helped our clients with passion and earnestness. From Designing to Detailing to Colour Psychology to Energy Saving to Environmental Design, Materials etc., in design aspect & Project Management, QA, QS, F&S development in Project Management aspect, Pavilion offers holistic realty solutions.</p>
+                  <p class="futura fw-bold mt-2" data-delay="200">We believe ‘Aspirations’ is the key to our functioning, as it throws light on the intentions and vision of the client. With experienced team of Civil Engineers, Architects, Interior Designers and Management Professionals rendering services in Construction, Architectural Design Consultation, Interior Design and Implementation in all sectors, Pavilion has been striving further.</p>
+                  <!-- <p class="futura fw-bold mt-2" data-delay="250">Construction Designs are always a tough nut to crack but with the required ‘Knowledge’, one understand the market scenario. With ‘Expertise’, we first uncomplicated the process and further streamline to develop the designs. With our ‘Commitment’, we are focused to provide our clients with the best possible representation and unparalleled level of service and communication. We believe the foundation of our business is trust and mutual respect and this enables us to truly understand, appreciate and analyze our client’s goals.</p>
+                  <p class="futura fw-bold mt-2" data-delay="300">In a nutshell, we support, assist and guide our customers with all the Knowledge, Expertise and Commitment required to make the right choice. Therefore with ‘Varied Aspirations’ we wish to cater to the Varied Aspirations of our clients, therefore transforming dreams to reality.</p> -->
+                </div>
+              </div>
+              <div class="col-lg-5 text-center mt-5 text-start">
+                <div class="position-relative" style="overflow: hidden;">
+                  <div class="about_overlay"></div>
+                  <img src="images/services_bg.jpg" class="w-100" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1" style="overflow: hidden;">
+          <div class="col text-center mt-5">
+            <h2 class="text-capitalize border-bottom pb-2 d-inline-block" data-aos="zoom-out"> Area of Expertise</h2>
+          </div>
+              <div class="col mt-3 text-start">
+                <!-- <div class="mx-auto about_info" style="width: 85%;" data-aos="fade-left">
+                  <h2 class="text-capitalize border-bottom pb-2 d-inline-block"> Area of Expertise</h2>
+                  <ul class="p-0 expertise text-start"> 
+                    <li> commercial buildings </li>
+                    <li> GATED COMMUNITY VILLA’S </li>
+                    <li> Residential / Apartments</li>
+                    <li> INSTITUTIONS – COLLEGE’S & HOSPITALS </li>
+                    <li> IT/SEZ BUILDINGS</li>
+                    <li> FARMHOUSE COMMUNITIES</li>
+                    <li> HNI RESIDENCE’S </li>
+                  </ul>
+                </div> -->
+                <div class="background-container" id="background_img">
+                  <div class="options-container">
+                      <ul class="options-list">
+                          <li class="option" data-bg="images/main_banner_img.jpeg">Commercial Buildings</li>
+                          <li class="option" data-bg="images/services_bg.jpg">Gated Community Villas</li>
+                          <li class="option" data-bg="images/about_banner.jpeg">Residential / Apartments</li>
+                          <li class="option" data-bg="images/construction.jpg">Institutions – Colleges & Hospitals</li>
+                          <li class="option" data-bg="images/handshake.jpg">IT/SEZ Buildings</li>
+                          <li class="option" data-bg="images/about_img.jpeg">Farmhouse Communities</li>
+                          <li class="option" data-bg="images/main_banner_img3.jpeg">HNI Residences</li>
+                      </ul>
+                  </div>
+              </div>
+              </div>
+          </div>
+        
+
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1 px-3" style="overflow: hidden;">
+          <div class="col">
+            <div class="d-lg-flex align-items-center justify-content-center">
+              <div class="col-lg-5 mt-5 text-start">
+                <div class="mx-auto about_info" style="width: 85%;" data-aos="fade-right">
+                  <h2 class="text-capitalize border-bottom pb-2 d-inline-block"> Core Values</h2>
+                  <p class="futura w-100">We are striving to make Pavilion Infra a Brand for TRUST & QUALITY. The purpose of Pavilion is to build a firm, which can guide clients in the best possible way with unique designs and development. We believe that a strong value system is crucial for any organization’s progress and rightly so, we have been following our values religiously as we serve our clients with great passion.</p>
+                  <p class="futura w-100 mt-2">We value Integrity, Responsibility & Commitment in all our transactions. We prioritize our values and provide our clients with a unique mix of approachability and right attitude. We also enable an engaging and rewarding environment for our people with plentiful opportunities.</p>
+                </div>
+              </div>
+              <div class="col-lg-5 mt-5">
+                <div class="about position-relative overflow-hidden">
+                  <div class="about_overlay3"></div>
+                  <img src="images/handshake.jpg" class="w-100" alt="">
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <!--------------------ABOUT---END------------------->
+
+
+    
+    <!-----------------VISION---AND---MISSION---START------------------->
+
+      <div class="container-fluid mt-5" style="overflow: hidden;">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1 px-3 d-lg-flex align-items-center justify-content-center">
+          <div class="col">  
+            <div class="d-lg-flex align-items-center justify-content-center">
+              <div class="col-lg-5">
+                <div class="about position-relative overflow-hidden">
+                  <div class="about_overlay4"></div>
+                  <img src="images/vision_1.jpg" class="w-100" alt="">
+                </div>
+              </div>
+              <div class="col-lg-5 mt-3 mt-lg-0">
+                <div class="vision_mission_container" data-aos="fade-left">
+                  <div class="vision_mission_content">
+                    <h2 class="text-capitalize border-bottom pb-2 d-inline-block"> Vision</h2>
+                    <p class="futura w-100">To be one among the elite of the end-to-end solution providers in construction industry, delivering world-class Products & Services to the global market.</p>
+                    <h2 class="text-capitalize border-bottom pb-2 d-inline-block"> Mission</h2>
+                    <p class="futura w-100">Our mission is to be synonymous with timeliness, quality and trust. We gauge our benchmark for success by our contribution to our clients’ success. Be it construction, infrastructure or PMC - Project Management Consultant we want to continue to be potent players.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <!-----------------VISION---AND---MISSION---END-------------------> 
+    
+    <!-----------------KEY---MANAGEMENT---START------------------->
+
+    <div class="container-fluid mt-5" style="overflow: hidden;">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1 px-3"> 
+        <div class="col text-center">
+          <h2 class="text-capitalize border-bottom pb-2 d-inline-block" data-aos="zoom-out">Key Management</h2>
+        </div>
+        <div class="col mt-3">
+          <div class="key_management_card position-relative overflow-hidden d-lg-flex align-items-center justify-content-center gap-5">
+            <div class="key_management_overlay"></div>
+            <div class="key_management_img">
+              <img src="images/key_management.jpg" class="w-100" alt="">
+            </div>
+            <div class="key_management_content">
+              <h2 class="text-capitalize mt-3 mt-lg-0 mb-0">KARTHEEK CHUKKAPALLI</h2>
+              <h4>Managing Director</h4>
+              <p class="futura">A young & dynamic person with great passion towards consistency & commitment. There is no substitute to enthusiasm and experience; Mr. Kartheek personifies oodles of knowledge and skills. Mr. Kartheek’s portfolio is extensive and exhaustive and the undying spirit to learn and upgrade has not just benefited him but has also contributed immensely to the progression of Brand Laaksha.</p>
+              <p class="futura">The will to succeed and carry further the good work, will inevitably transform into excellence.</p>
+            </div>
+          </div>
+          <!-- <div class="d-lg-flex align-items-center justify-content-center">
+            <div class="col-lg-5">
+              <div class="key_management_card">
+                <img src="images/key_management.jpg" class="w-100" alt="">
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="key_management_card">
+                <img src="images/key_management.jpg" class="w-100" alt="">
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    
+    <!-----------------KEY---MANAGEMENT---END------------------->
+
+
+    <!-----------------LIFESTYLE---START------------------->
+
+    <div class="container-fluid mt-5" style="overflow: hidden;">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1 px-3 d-lg-flex align-items-center justify-content-center">
+        <div class="col">  
+          <div class="d-lg-flex align-items-center justify-content-center">
+            <div class="col-lg-5 mt-3 mt-lg-0">
+              <div class="vision_mission_container" data-aos="fade-left">
+                <div class="vision_mission_content">
+                  <h2 class="text-capitalize border-bottom pb-2 d-inline-block"> Lifestyle @ Pavilion Infra</h2>
+                  <p class="futura w-100 mb-0">Besides urging and motivating our people to work, we inspire the importance of working with passion and enthusiasm. We at Pavilion Infra believe in weaving a positive and healthy environment so as to enable our employees to lead a happy and positive life with a good lifestyle. All our employees are continuously motivated, so that they can infuse newer levels of interest and passion at work. At Pavilion Infra, we encourage our employees to work with pleasure and not pressure.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="about position-relative overflow-hidden">
+                <div class="about_overlay5"></div>
+                <img src="images/lifestyle_1.jpg" class="w-100" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-----------------LIFESTYLE---END------------------->
+
+    <!--------------------LOCATION---START------------------->
+
+      <div class="container-fluid px-0 mt-5" style="overflow: hidden;">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1" style="overflow: hidden;">
+          <div class="col text-center">
+            <h2 class="text-capitalize text-center d-inline-block border-bottom pb-2" data-aos="zoom-out">locate us</h2>
+          </div>
+          <div class="col mt-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.617297850344!2d78.36559021487696!3d17.430144288052972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93f1835df585%3A0x7fc66f7ed44a3dab!2sFlat+no+-+101%2C+Plot+no+-+14%2C+Jayabheri+pine+valley+%2C+Gachibowli%2C+Hyderabad+%2C+Telangana+%2C+India+-+500032!5e0!3m2!1sen!2sin!4v1517315543554" width="100%" height="450" frameborder="0" data-aos="fade-in" style="border:0" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </div>
+    
+    <!--------------------LOCATION---END------------------->
+
+    <!--------------------FOOTER---START------------------->
+
+    <div class="container-fluid text-white footer_bg pt-5 pt-lg-0 pb-4">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 " style="overflow: hidden;">
+          <div class="col mt-lg-5" data-aos="fade-up">
+            <div class="footer_logo">
+              <img src="images/pavilion_logo.png" class="w-100" alt="">
+            </div>
+          </div>
+          <div class="col mt-5" data-aos="fade-up" data-aos-delay="150">
+            <h5 class="text-uppercase d-inline-block footer_heading">quick links</h5>
+            <ul class="list-unstyled p-0 mt-3 footer_list">
+              <li><a href="index.html" class="text-capitalize text-decoration-none text-white">home</a></li>
+              <li><a href="#" class="text-capitalize text-decoration-none text-white">about</a></li>
+              <li><a href="services.html" class="text-capitalize text-decoration-none text-white">services</a></li>
+              <li><a href="completed.html" class="text-capitalize text-decoration-none text-white">completed projects</a></li>
+              <li><a href="ongoing.html" class="text-capitalize text-decoration-none text-white">ongoing projects</a></li>
+              <li><a href="upcoming.html" class="text-capitalize text-decoration-none text-white">upcoming projects</a></li>
+              <li><a href="quality.html" class="text-capitalize text-decoration-none text-white">quality</a></li>
+              <li><a href="csr.html" class="text-capitalize text-decoration-none text-white">CSR</a></li>
+              <li><a href="clients.html" class="text-capitalize text-decoration-none text-white">clients</a></li>
+              <li><a href="contact.html" class="text-capitalize text-decoration-none text-white">contact us</a></li>
+            </ul>
+          </div>
+          <div class="col mt-5" data-aos="fade-up" data-aos-delay="250">
+            <h5 class="text-uppercase d-inline-block footer_heading">Contact info</h5>
+            <div class="d-flex mt-3 align-items-center">
+              <div class="col-1">
+                <iconify-icon icon="line-md:phone-call-loop" class="address_icon mt-2"></iconify-icon>
+              </div>
+              <div class="col-10 ms-2">
+                <!-- <p class="futura fw-bold text-uppercase mb-0">call us 24/7</p> -->
+                <a href="tel:+91 7702335599" class="text-decoration-none mail"><p class="futura mb-0">+91 7702335599</p></a>
+              </div>
+            </div>
+            <div class="d-flex align-items-center">
+              <div class="col-1">
+                <iconify-icon icon="line-md:email" class="address_icon mt-2"></iconify-icon>
+              </div>
+              <div class="col-10 ms-2">
+                <!-- <p class="futura fw-bold text-uppercase mb-0">email us</p> -->
+                <a href="mailto:info@pavilioninfra.com" class="text-decoration-none mail"><p class="futura mb-0">info@pavilioninfra.com</p></a>
+              </div>
+            </div>
+            <div class="footer_icons mt-3 d-flex align-items-center gap-2">
+              <a href="https://www.facebook.com/PavilionInfra/" target="_blank"><iconify-icon icon="uim:facebook-f" class="facebook"></iconify-icon></a>
+              <a href="https://twitter.com/pavilion_infra" target="_blank"><iconify-icon icon="line-md:twitter-x-alt" class="facebook"></iconify-icon></a>
+              <a href="https://www.instagram.com/pavilion_infra/" target="_blank"><iconify-icon icon="line-md:instagram" class="facebook"></iconify-icon></a>
+            </div>
+          </div>
+          <div class="col mt-5" data-aos="fade-up" data-aos-offset="50" data-aos-delay="350">
+            <h5 class="text-uppercase d-inline-block footer_heading">address</h5>
+            <div class="d-flex mt-3">
+              <div class="col-1">
+                <iconify-icon icon="fa6-solid:map-location" class="address_icon"></iconify-icon>
+              </div>
+              <div class="col-10 ms-2">
+                <p class="futura fw-bold text-uppercase mb-0">corporate office</p>
+                <p class="futura mt-1">Flat no - 101, Plot no - 14, Jayabheri pine valley , Gachibowli, Hyderabad , Telangana , India - 500032</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr style="color: var(--white);">
+
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1" style="overflow: hidden;">
+          <div class="col text-center mt-3 mb-1">
+            <p class="text-white futura mb-0">Pavilion Infra © 2024 All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--------------------FOOTER---END------------------->
+  </main>
+
+    <!---------------------JAVASCRIPTS---START---------------------->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./swiper/swiper-bundle.min.js"></script>
+
+    <script src='https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js'></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <script>
+      const lenis = new Lenis()
+
+        lenis.on('scroll', (e) => {
+          console.log(e)
+        })
+
+        function raf(time) {
+          lenis.raf(time)
+          requestAnimationFrame(raf)
+        }
+
+        requestAnimationFrame(raf);
+    </script>
+
+    <script src="script.js"></script>
+
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+
+    <script src="./aos-master/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 120,
+            duration: 2000,
+        })
+    </script>
+    
+</body>
+</html>

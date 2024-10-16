@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./aos-master/dist/aos.css">
+
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
+
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css'>
+    <script src="https://kit.fontawesome.com/3b161c540c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+
+    <!------------------NAVBAR---START---------------->
+
+    <header id="header">
+    <div class="container1">
+      <input type="checkbox" name="check" id="check">
+      <div class="d-block d-lg-none logo_display_responsive">
+        <a href="index.html" style="display: contents;" class="py-3"><img src="images/pavilion_logo.png" class="w-100" alt=""></a>
+      </div>
+
+      <div class="nav-btn">
+        <div class="nav_links">
+          <ul class="p-0 mb-0">
+            <li class="nav_link" style="--i: .6s">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="nav_link" style="--i: .6s">
+              <a href="about.html">About Us</a>
+            </li>
+            <li class="nav_link" style="--i: .6s">
+              <a href="#" class="nav_active">Services</a>
+            </li>
+            <li class="nav_link" style="--i: .85s">
+              <a href="#">Projects<i class="fas fa-caret-down"></i></a>
+              <div class="dropdown1">
+                <ul class="p-0">
+                  <li class="dropdown_link">
+                    <a href="completed.html" class="d-flex align-items-center justify-content-between"><span>Completed</span> <span><iconify-icon icon="mi:arrow-right" class="fs-6 nested_icon" style="margin-top: .4rem;"></iconify-icon></span></a>
+                  </li>
+                  <li class="dropdown_link">
+                    <a href="ongoing.html" class="d-flex align-items-center justify-content-between"><span>Ongoing</span> <span><iconify-icon icon="mi:arrow-right" class="fs-6 nested_icon" style="margin-top: .4rem;"></iconify-icon></span></a>
+                  </li>
+                  <li class="dropdown_link">
+                    <a href="upcoming.html" class="d-flex align-items-center justify-content-between"><span>Upcoming</span> <span><iconify-icon icon="mi:arrow-right" class="fs-6 nested_icon" style="margin-top: .4rem;"></iconify-icon></span></a>
+                  </li>
+                   <div class="top_arrow"></div>
+                </ul>
+              </div>
+            </li>
+
+            <div class="logo_display">
+              <a href="#" style="display: contents;" class=""><img src="images/pavilion_logo.png" class="w-100" alt=""></a>
+            </div>
+
+            
+            <li class="nav_link" style="--i: 1.35s">
+              <a href="quality.html">Quality</a>
+            </li>
+            <li class="nav_link" style="--i: 1.35s">
+              <a href="csr.html">CSR</a>
+            </li>
+            <li class="nav_link" style="--i: 1.35s">
+              <a href="clients.html">Clients</a>
+            </li>
+            <li class="nav_link" style="--i: 1.35s">
+              <a href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hamburger-menu-container">
+        <div class="hamburger-menu">
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+   
+    
+    <!------------------NAVBAR---END---------------->
+
+    <!--------------------BANNER---START------------------->
+    
+    <!-- <div class="container-fluid about_banner px-0" style="overflow: hidden;">
+      <img src="images/about_banner.jpeg" class="w-100 about_banner_main_img" alt="">
+      <div class="about_logo">
+        <img src="images/pavilion_logo.png" class="w-100" alt="">
+      </div>
+    </div> -->
+
+    <div class="container-fluid px-0" style="overflow: hidden;">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1" style="overflow: hidden;">
+          <div class="col">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="services_slide1">
+                    <img src="images/construction.jpg" class="w-100 d-block d-lg-none" alt="">
+                    <!-- <div class="services_img_content">
+                      <h3 class="futura text-uppercase fw-bold text-white mb-0">Pavilion Group's expertise lies in providing</h3>
+                    </div> -->
+                    <div class="center_heading">
+                      <h3 class="futura fw-bold text-white text-uppercase mb-0 px-3 py-2">Pavilion Group's expertise lies in providing</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="services_slide2">
+                    <img src="images/about_img.jpeg" class="w-100 d-block d-lg-none" alt="">
+                    <!-- <div class="services_img_content2">
+                      <h3 class="futura text-uppercase fw-bold text-white mb-0">robust solutions for its Varied services.</h3>
+                    </div> -->
+                    <div class="center_heading">
+                      <h3 class="futura fw-bold text-white text-uppercase mb-0 px-3 py-2">robust solutions for its Varied services.</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"><iconify-icon icon="mi:arrow-right" class="banner_right_arrow" style="font-size: calc(1.2rem + .1vw);"></iconify-icon></div>
+              <div class="swiper-button-prev"><iconify-icon icon="mi:arrow-left" class="banner_left_arrow" style="font-size: calc(1.2rem + .1vw);"></iconify-icon></div>
+              <div class="swiper-pagination banner_pagination"></div>
+            </div>
+          </div>
+      </div>
+  </div>
+    
+    <!--------------------BANNER---END------------------->
+
+    <!--------------------SERVICES---START------------------->
+
+    <!-- <div class="container services_page">
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1" style="overflow: hidden;">
+        <div class="col text-center">
+          <div class="services_page_content">
+            <h2 class="text-capitalize text-center d-inline-block border-bottom pb-2" data-aos="zoom-out">Our Services</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3" style="overflow: hidden;">
+        <div class="col text-center">
+          <div class="card w-100">
+            <div class="card-body">
+              <h5 class="card-title">design services</h5>
+              <p class="card-text">Architecture related services to capture client's imagination into executable design.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col text-center">
+          <div class="card w-100">
+            <div class="card-body">
+              <h5 class="card-title">transaction management</h5>
+              <p class="card-text">As a real estate transaction consultant we help our clients get the best deal possible.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col text-center">
+          <div class="card w-100">
+            <div class="card-body">
+              <h5 class="card-title">contracting (Civil & interiors construction)</h5>
+              <p class="card-text">Cutting-edge construction technologies coupled with engineering practices.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col text-center">
+          <div class="card w-100">
+            <div class="card-body">
+              <h5 class="card-title">Turnkeys solutions</h5>
+              <p class="card-text">From transaction to design to contracting to CMC in the most efficient manner possible.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col text-center">
+          <div class="card w-100">
+            <div class="card-body">
+              <h5 class="card-title">construction management</h5>
+              <p class="card-text">On time and on budget management solutions through staffing and supply chain management.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="container-fluid services_page">
+      <div class="container position-relative">
+          <div class="row justify-content-center mb-5" style="overflow: hidden;">
+              <div class="col-lg-8 text-center" data-aos="zoom-out">
+                  <h2 class="section-title mb-0">Our Services</h2>
+              </div>
+          </div>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+              <div class="col" data-aos="fade-up" data-aos-delay="100">
+                  <div class="service-card">
+                      <div class="card-body text-center">
+                          <iconify-icon icon="mdi:pencil-ruler" class="service-icon"></iconify-icon>
+                          <h5 class="card-title">Design Services</h5>
+                          <p class="card-text mb-0">Transforming client's imagination into executable architectural designs with precision and creativity.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col" data-aos="fade-up" data-aos-delay="200">
+                  <div class="service-card">
+                      <div class="card-body text-center">
+                          <iconify-icon icon="mdi:handshake" class="service-icon"></iconify-icon>
+                          <h5 class="card-title">Transaction Management</h5>
+                          <p class="card-text mb-0">Expert real estate transaction consulting to secure the most advantageous deals for our clients.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col" data-aos="fade-up" data-aos-delay="300">
+                  <div class="service-card">
+                      <div class="card-body text-center">
+                          <iconify-icon icon="mdi:hammer-wrench" class="service-icon"></iconify-icon>
+                          <h5 class="card-title">Contracting</h5>
+                          <p class="card-text mb-0">State-of-the-art construction technologies combined with superior engineering for civil & interior projects.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col" data-aos="fade-up" data-aos-delay="400">
+                  <div class="service-card">
+                      <div class="card-body text-center">
+                          <iconify-icon icon="mdi:key-variant" class="service-icon"></iconify-icon>
+                          <h5 class="card-title">Turnkey Solutions</h5>
+                          <p class="card-text mb-0">Comprehensive end-to-end project management from transaction to design, contracting, and CMC.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col" data-aos="fade-up" data-aos-delay="500">
+                  <div class="service-card">
+                      <div class="card-body text-center">
+                          <iconify-icon icon="mdi:chart-gantt" class="service-icon"></iconify-icon>
+                          <h5 class="card-title">Construction Management</h5>
+                          <p class="card-text mb-0">Efficient on-time, on-budget solutions through expert staffing and supply chain management.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    
+    <!-----------------SERVICES---END------------------->
+
+    <!--------------------LOCATION---START------------------->
+
+      <div class="container-fluid px-0" style="overflow: hidden;">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1" style="overflow: hidden;">
+          <div class="col text-center">
+            <h2 class="text-capitalize text-center d-inline-block border-bottom pb-2" data-aos="zoom-out">locate us</h2>
+          </div>
+          <div class="col mt-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.617297850344!2d78.36559021487696!3d17.430144288052972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93f1835df585%3A0x7fc66f7ed44a3dab!2sFlat+no+-+101%2C+Plot+no+-+14%2C+Jayabheri+pine+valley+%2C+Gachibowli%2C+Hyderabad+%2C+Telangana+%2C+India+-+500032!5e0!3m2!1sen!2sin!4v1517315543554" width="100%" height="450" frameborder="0" data-aos="fade-in" style="border:0" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </div>
+    
+    <!--------------------LOCATION---END------------------->
+
+    <!--------------------FOOTER---START------------------->
+
+    <div class="container-fluid text-white footer_bg pt-5 pt-lg-0 pb-4">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 " style="overflow: hidden;">
+          <div class="col mt-lg-5" data-aos="fade-up">
+            <div class="footer_logo">
+              <img src="images/pavilion_logo.png" class="w-100" alt="">
+            </div>
+          </div>
+          <div class="col mt-5" data-aos="fade-up" data-aos-delay="150">
+            <h5 class="text-uppercase d-inline-block footer_heading">quick links</h5>
+            <ul class="list-unstyled p-0 mt-3 footer_list">
+              <li><a href="index.html" class="text-capitalize text-decoration-none text-white">home</a></li>
+              <li><a href="about.html" class="text-capitalize text-decoration-none text-white">about</a></li>
+              <li><a href="#" class="text-capitalize text-decoration-none text-white">services</a></li>
+              <li><a href="completed.html" class="text-capitalize text-decoration-none text-white">completed projects</a></li>
+              <li><a href="ongoing.html" class="text-capitalize text-decoration-none text-white">ongoing projects</a></li>
+              <li><a href="upcoming.html" class="text-capitalize text-decoration-none text-white">upcoming projects</a></li>
+              <li><a href="quality.html" class="text-capitalize text-decoration-none text-white">quality</a></li>
+              <li><a href="csr.html" class="text-capitalize text-decoration-none text-white">CSR</a></li>
+              <li><a href="clients.html" class="text-capitalize text-decoration-none text-white">clients</a></li>
+              <li><a href="contact.html" class="text-capitalize text-decoration-none text-white">contact us</a></li>
+            </ul>
+          </div>
+          <div class="col mt-5" data-aos="fade-up" data-aos-delay="250">
+            <h5 class="text-uppercase d-inline-block footer_heading">Contact info</h5>
+            <div class="d-flex mt-3 align-items-center">
+              <div class="col-1">
+                <iconify-icon icon="line-md:phone-call-loop" class="address_icon mt-2"></iconify-icon>
+              </div>
+              <div class="col-10 ms-2">
+                <!-- <p class="futura fw-bold text-uppercase mb-0">call us 24/7</p> -->
+                <a href="tel:+91 7702335599" class="text-decoration-none mail"><p class="futura mb-0">+91 7702335599</p></a>
+              </div>
+            </div>
+            <div class="d-flex align-items-center">
+              <div class="col-1">
+                <iconify-icon icon="line-md:email" class="address_icon mt-2"></iconify-icon>
+              </div>
+              <div class="col-10 ms-2">
+                <!-- <p class="futura fw-bold text-uppercase mb-0">email us</p> -->
+                <a href="mailto:info@pavilioninfra.com" class="text-decoration-none mail"><p class="futura mb-0">info@pavilioninfra.com</p></a>
+              </div>
+            </div>
+            <div class="footer_icons mt-3 d-flex align-items-center gap-2">
+              <a href="https://www.facebook.com/PavilionInfra/" target="_blank"><iconify-icon icon="uim:facebook-f" class="facebook"></iconify-icon></a>
+              <a href="https://twitter.com/pavilion_infra" target="_blank"><iconify-icon icon="line-md:twitter-x-alt" class="facebook"></iconify-icon></a>
+              <a href="https://www.instagram.com/pavilion_infra/" target="_blank"><iconify-icon icon="line-md:instagram" class="facebook"></iconify-icon></a>
+            </div>
+          </div>
+          <div class="col mt-5" data-aos="fade-up" data-aos-offset="50" data-aos-delay="350">
+            <h5 class="text-uppercase d-inline-block footer_heading">address</h5>
+            <div class="d-flex mt-3">
+              <div class="col-1">
+                <iconify-icon icon="fa6-solid:map-location" class="address_icon"></iconify-icon>
+              </div>
+              <div class="col-10 ms-2">
+                <p class="futura fw-bold text-uppercase mb-0">corporate office</p>
+                <p class="futura mt-1">Flat no - 101, Plot no - 14, Jayabheri pine valley , Gachibowli, Hyderabad , Telangana , India - 500032</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr style="color: var(--white);">
+
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1" style="overflow: hidden;">
+          <div class="col text-center mt-3 mb-1">
+            <p class="text-white futura mb-0">Pavilion Infra © 2024 All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--------------------FOOTER---END------------------->
+
+
+    <!---------------------JAVASCRIPTS---START---------------------->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./swiper/swiper-bundle.min.js"></script>
+
+    <script src='https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js'></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+    <script>
+      const lenis = new Lenis()
+
+        lenis.on('scroll', (e) => {
+          console.log(e)
+        })
+
+        function raf(time) {
+          lenis.raf(time)
+          requestAnimationFrame(raf)
+        }
+
+        requestAnimationFrame(raf);
+    </script>
+
+    <script src="script.js"></script>
+
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+
+    <script src="./aos-master/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 120,
+            duration: 2000,
+        })
+    </script>
+    
+</body>
+</html>

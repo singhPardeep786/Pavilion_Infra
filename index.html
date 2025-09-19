@@ -595,7 +595,7 @@
 
         <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1" style="overflow: hidden;">
           <div class="col text-center mt-3 mb-1">
-            <p class="text-white futura mb-0">Pavilion Infra © 2024 All rights reserved.</p>
+            <p class="text-white futura mb-0">Pavilion Infra © <span id="currentYear"></span> All rights reserved.</p>
           </div>
         </div>
       </div>
@@ -635,6 +635,10 @@
     </script>
 
     <script src="script.js"></script>
+
+    <script>
+        document.querySelector("#currentYear) = new Date().getFullYear();                                        
+    </script>
 
     <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
 
